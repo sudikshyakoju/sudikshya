@@ -1,4 +1,4 @@
-#WAP
+'''WAP n students take k apples and distribute them to each evenly'''
 
 students=int(input('enter number of students:'))
 apples=int(input('enter number of apples:'))

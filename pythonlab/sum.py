@@ -1,4 +1,4 @@
-#WAP that take three inputs and print their sum.
+'''WAP that take three inputs and print their sum.'''
 
 value1=int(input('enter value1:'))
 value2=int(input('enter value2:'))
