@@ -9,11 +9,11 @@ nep=int(input('enter marks of nepali:'))
 total_marks=eng+math+sci+nep
 percentage=(total_marks/400)*100
 
-if (percentage=>70):
+if (percentage>=70):
     print("distinction")
-elif (percentage=>60):
+elif (percentage>=60):
     print("first division")
-elif (percentage=>40):
+elif (percentage>=40):
     print("pass")
 else:
     print("fail")
