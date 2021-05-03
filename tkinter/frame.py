@@ -1,0 +1,11 @@
+from tkinter import*
+root=Tk()
+Frame=Labelframe(root,text="my frame",padx=5, pady=5)
+Frame.pack(padx=10, pady=10)
+Frame=Labelframe(root, padx=50, pady=50)
+Frame.pack(padx=10, pady=10)
+button1=Button(frame, text="click this")
+button1.grid(row=0, column=0)
+button2=Button(frame, text="do not click")
+button2.grid(row=1, column=1)
+root.mainloop()
